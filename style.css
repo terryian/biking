@@ -1,1 +1,16 @@
-
+.print {
+  display: block;
+  margin: 1.5em 0;
+}
+#intranet-site-identity {
+  background-color: #18453B;
+  color: white;
+}
+@media print {
+  #intranet-site-identity img {
+    display: none;
+  }
+  #intranet-site-identity:after {
+    content: url(http://ipf.msu.edu/_files/images/the-hub-green.png)
+  }
+}
