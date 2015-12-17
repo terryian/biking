@@ -1,0 +1,8 @@
+@media print {
+  #intranet-site-identity img {
+    display: none;
+  }
+  #intranet-site-identity:after {
+    content:url(http://ipf.msu.edu/_files/images/the-hub-green.png)
+  }
+}
