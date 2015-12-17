@@ -11,6 +11,6 @@
     display: none;
   }
   #intranet-site-identity:after {
-    content: url(http://ipf.msu.edu/_files/images/the-hub-green.png)
+    content:url(http://ipf.msu.edu/_files/images/the-hub-green.png)
   }
 }
